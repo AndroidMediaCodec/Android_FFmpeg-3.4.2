@@ -1,0 +1,14 @@
+prefix=/media/dastaniqbal/OS/Tools/ffmpeg/johnvansickle.com/prefix/arm
+exec_prefix=${prefix}
+libdir=/media/dastaniqbal/OS/Tools/ffmpeg/johnvansickle.com/prefix/arm/lib
+includedir=/media/dastaniqbal/OS/Tools/ffmpeg/johnvansickle.com/prefix/arm/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 55.78.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -lm
+Cflags: -I${includedir}

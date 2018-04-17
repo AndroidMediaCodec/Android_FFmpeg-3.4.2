@@ -1,0 +1,1 @@
+./configure --cross-prefix=/media/dastaniqbal/OS/Tools/ffmpeg/ffmpeg-android/toolchain-android/bin/arm-linux-androideabi- --sysroot=/media/dastaniqbal/OS/Tools/ffmpeg/ffmpeg-android/toolchain-android/sysroot --host=arm-linux --enable-pic --disable-asm --enable-static --disable-shared --prefix=/media/dastaniqbal/OS/Tools/ffmpeg/ffmpeg-android/toolchain-android --disable-cli
