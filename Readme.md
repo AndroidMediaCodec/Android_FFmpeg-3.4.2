@@ -1,6 +1,7 @@
-##Set Environment
+## Set Environment
 
 ./generateToolChain.sh
 
-##Run build
+## Run build
 ./build_libx264.sh
+./build_ffmpeg.sh
